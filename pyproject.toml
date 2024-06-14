@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mts-exolve-eas"
+version = "0.1.0"
+description = "Emergency Alert System"
+authors = ["Rodion Gudz <rodion.gudz@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+reflex = "^0.5.4"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
